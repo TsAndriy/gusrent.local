@@ -15,3 +15,10 @@ include('include/db.php');
         $news = mysqli_fetch_all($result, MYSQLI_ASSOC);
         return $news;
     }
+    function get_post_by_id ($post_id) {
+        global $conn;
+        $sql = "SELECT * FROM news WHERE id =" .$post_id;
+        $result = mysqli_query($conn, $sql);
+        $post = mysqli_fetch_assoc($result);
+        return $post;
+    }
