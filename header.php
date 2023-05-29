@@ -11,11 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HuHouse</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
     <div class="container">
-        <a class="navbar-brand" href="index.php">HuHouse</a>
+        <a class="navbar-brand" href="index.php">
+            <img src="img/R.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            HuHouse</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
