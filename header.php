@@ -33,6 +33,9 @@
                     </li>
                 <?php endforeach; ?>
             </ul>
+            <form class="form-inline my-2 my-lg-0" action="login/index.php">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Увійти</button>
+            </form>
         </div>
     </div>
 </nav>

@@ -16,7 +16,7 @@
     </div>
     <div class="row" style="padding-bottom: 50px">
         <?php foreach ($news as $new):?>
-            <div class="col-md-6" style="padding-top: 50px">
+            <div class="col-md-4" style="padding-top: 50px">
                 <div class="card h-100">
                     <img src="<?=$new['img']?>" class="card-img-top" alt="Картинка новини">
                     <div class="card-body d-flex flex-column">
@@ -29,3 +29,7 @@
         <?php endforeach; ?>
     </div>
 </div>
+
+<?php
+    include_once('footer.php');
+?>

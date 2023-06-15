@@ -1,5 +1,7 @@
 <?php
-include('include/db.php');
+if (!isset($conn)) {
+    include('include/db.php');
+}
     function get_menu() {
         global $conn;
         $sql = "SELECT * FROM menu";
@@ -39,3 +41,4 @@ include('include/db.php');
         return $category;
 
     }
+    ?>

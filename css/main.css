@@ -2,8 +2,35 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.card:hover {
+    border: #e3f2fd solid 3px;
+}
+
 .card-img-top {
     max-height: 300px;
 }
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+    padding: 3px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+.imagText {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
